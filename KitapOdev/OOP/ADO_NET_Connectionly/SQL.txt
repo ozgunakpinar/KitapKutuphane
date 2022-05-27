@@ -1,0 +1,10 @@
+﻿CREATE DATABASE PersonelDB
+GO
+USE PersonelDB
+GO
+CREATE TABLE Personeller(PersonelID int IDENTITY PRIMARY KEY,
+                      Ad varchar(20),
+					  Soyad varchar(20),
+					  Adres varchar(100))
+GO 
+INSERT INTO Personeller VALUES('Cevdet','Korkmaz','Bakırkoy'),('Selami','Dursun','Kadıkoy')

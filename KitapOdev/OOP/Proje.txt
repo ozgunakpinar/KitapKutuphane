@@ -1,0 +1,11 @@
+Kitap Varlýðý(Entity) uzerinde calisan;
+ * Tum Kayýtlarý Listeleyen
+ * Yeni Kayýt ekleme
+ * Istenilen Kitabý bulacaðýmýz(Primary Key uzerinden)
+Ýstenirse dosyaya, istenirse database uzerinde bu iþlemleri yapacak sýnýflarý SOLID prensiplerine uygun bir þekilde geliþtiriniz...
+
+Kitap(KitapID, Ad, Yazar, Fiyat) alanlarýndan olusmaktadir...
+
+Onyuzde Console veya MVC kullanýlabilinir...
+
+***Veritabaný yoksa SQL Server uzerinde olustursun...(opsiyonel)

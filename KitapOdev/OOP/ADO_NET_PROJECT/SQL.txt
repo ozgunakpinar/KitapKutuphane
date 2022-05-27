@@ -1,0 +1,10 @@
+﻿CREATE DATABASE KitapDB
+GO
+USE KitapDB
+GO
+CREATE TABLE Kitaplar(KitapID int IDENTITY PRIMARY KEY,
+                      Ad varchar(20),
+					  Yazar varchar(20),
+					  Fiyat int(10))
+GO 
+INSERT INTO Personeller VALUES('SuçveCeza','Dostoyevski','50'),('Cinler','Dostoyevski','60')

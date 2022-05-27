@@ -1,0 +1,25 @@
+﻿
+MVC(Model View Controller)
+MVC => Design Pattern
+
+MVVM => Model View ViewModel(Windows App.)
+
+MVC Core
+* Async kullanım
+* web.config şeklinde xml tabanlı olan ayar dosyaları => json tabanlı appsetting.json
+* global.asax artık yok...
+* wwwroot klasoru geldi...
+* Web siteleri servis matığında exe dosya olarak çalışıyor...(Kestrel)
+* Middleware kullanımı geldi...(HttpModule artık yok..)
+* Normal MVC de Aksiyonların geri donus degeri ActionResult iken CORE =>IActionResult
+* CORE ile Ilogger kullanımı geldi...
+* Tag Helpers kullanımı geldi...
+
+Core 5-Core 6 arasındaki farklar
+5 => program.cs içerinde main var. 
+     startup diye bir class var
+6 => program.cs içerisinde tek bir elden yazılıyor...(sadelestirilmiş)
+6 => namespace kullanımı(global)
+
+
+Controller içerisindeki metodlara aksiyon(action) denir.
